@@ -10,13 +10,13 @@ while (secret_number != guess){  //loop de tentativas
     
     if (secret_number == guess) { //condição se acertar
         let word_attempts = guess_count > 1 ? 'attempts' : 'attempt'; //substituto para if else
-        alert(`Well done, you win in ${guess} ${word_attempts} S2!`);
+        alert(`Well done, you win in ${guess_count} ${word_attempts} S2!`);
     } else { //condição se errar - dicas de chute
         alert("Tray again :(");
         if(secret_number < guess){
-            alert(`The secret number is less than your guees ${guess}`);
+            alert(`The secret number is less than your guees ${guess} ;)`);
         } else {
-            alert(`The secret number is greater than your guees ${guess}`);
+            alert(`The secret number is greater than your guees ${guess} ;)`);
         }
         guess_count++;
     }

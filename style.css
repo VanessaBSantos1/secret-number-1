@@ -86,3 +86,12 @@ h2 {
     font-size: 32px;
     font-weight: 400;
 }
+
+@media (min-width: 480px) and (max-width: 768px ) {
+    .container__conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
